@@ -15,6 +15,7 @@
 		F069CBCB1F4D5B6300FE8E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F069CBC91F4D5B6300FE8E0B /* LaunchScreen.storyboard */; };
 		F069CBD61F4D5B6400FE8E0B /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F069CBD51F4D5B6400FE8E0B /* ______Tests.m */; };
 		F069CBE11F4D5B6400FE8E0B /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F069CBE01F4D5B6400FE8E0B /* ______UITests.m */; };
+		F069CBF01F4D5C3B00FE8E0B /* SuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = F069CBEF1F4D5C3B00FE8E0B /* SuperView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F069CBDC1F4D5B6400FE8E0B /* 手动布局视图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手动布局视图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F069CBE01F4D5B6400FE8E0B /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		F069CBE21F4D5B6400FE8E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F069CBEE1F4D5C3B00FE8E0B /* SuperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperView.h; sourceTree = "<group>"; };
+		F069CBEF1F4D5C3B00FE8E0B /* SuperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F069CBBF1F4D5B6300FE8E0B /* AppDelegate.m */,
 				F069CBC11F4D5B6300FE8E0B /* ViewController.h */,
 				F069CBC21F4D5B6300FE8E0B /* ViewController.m */,
+				F069CBEE1F4D5C3B00FE8E0B /* SuperView.h */,
+				F069CBEF1F4D5C3B00FE8E0B /* SuperView.m */,
 				F069CBC41F4D5B6300FE8E0B /* Main.storyboard */,
 				F069CBC71F4D5B6300FE8E0B /* Assets.xcassets */,
 				F069CBC91F4D5B6300FE8E0B /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F069CBF01F4D5C3B00FE8E0B /* SuperView.m in Sources */,
 				F069CBC31F4D5B6300FE8E0B /* ViewController.m in Sources */,
 				F069CBC01F4D5B6300FE8E0B /* AppDelegate.m in Sources */,
 				F069CBBD1F4D5B6300FE8E0B /* main.m in Sources */,
